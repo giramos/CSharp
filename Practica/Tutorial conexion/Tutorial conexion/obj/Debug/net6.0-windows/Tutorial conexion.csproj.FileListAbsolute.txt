@@ -1,0 +1,65 @@
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Tutorial conexion.exe
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Tutorial conexion.dll.config
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Tutorial conexion.deps.json
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Tutorial conexion.runtimeconfig.json
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Tutorial conexion.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Tutorial conexion.pdb
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\System.ClientModel.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\System.Formats.Asn1.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\System.Data.SqlClient.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Data.SqlClient.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.csproj.AssemblyReference.cache
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial_conexion.Form1.resources
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.csproj.GenerateResource.cache
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.AssemblyInfoInputs.cache
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.AssemblyInfo.cs
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.csproj.CoreCompileInputs.cache
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.csproj.CopyComplete
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\refint\Tutorial conexion.dll
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.pdb
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\Tutorial conexion.genruntimeconfig.cache
+C:\Users\germa\source\repos\Tutorial conexion\Tutorial conexion\obj\Debug\net6.0-windows\ref\Tutorial conexion.dll

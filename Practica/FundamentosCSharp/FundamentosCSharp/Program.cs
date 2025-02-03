@@ -8,13 +8,15 @@ namespace FundamentosCSharp
     {
         static void Main(string[] args)
         {
-            CervezaDB cervezaBD = new CervezaDB();
-            var cervezas = cervezaBD.Get();
+            //CervezaDB cervezaBD = new CervezaDB();
+            //var cervezas = cervezaBD.Get();
 
-            foreach(var item in cervezas )
-            {
-                Console.WriteLine(item.Nombre);
-            }
+            //foreach(var item in cervezas )
+            //{
+            //    Console.WriteLine(item.Nombre);
+            //}
+
+            Conexion c = new Conexion();
         }
     }
 }

@@ -1,25 +1,18 @@
 ﻿using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FundamentosCSharp.Models
 {
-     class CervezaDB
+    class CervezaDB
     {
-        private string connectionString = "Data Source=localhost; Initial Catalog=FundamentosCSharp; User=sa; Password=123456;";   //servidor
-        // nombre BBD
-        // 
-        // puerto por defecto
+        private string connectionString = "Data Source=DESKTOP-3829VRG;Initial Catalog=FundamentosCSharp;Integrated Security=True";
 
+        
         public List<Cerveza> Get()
         {
             List<Cerveza> cervezas = new List<Cerveza>();
-
-            string query = "select nombre, marca, alcohol, cantidad" +
-                "from cerveza";
+            string query = "SELECT nombre, marca, alcohol, cantidad FROM cerveza";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -28,17 +21,15 @@ namespace FundamentosCSharp.Models
                 SqlDataReader reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    string nombre = reader.GetString(0);
-                    int cantidad = reader.GetInt32(3);
                     Cerveza cerveza = new Cerveza();
-                    cerveza.Alcohol = reader.GetInt32(2);
+                    cerveza.Nombre = reader.GetString(0);
                     cerveza.Marca = reader.GetString(1);
+                    cerveza.Alcohol = reader.GetInt32(2);
+                    // Asigna cantidad si es necesario
                     cervezas.Add(cerveza);
                 }
-
                 connection.Close();
             }
-
             return cervezas;
         }
     }

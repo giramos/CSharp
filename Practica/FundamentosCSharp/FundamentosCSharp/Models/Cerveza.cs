@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 /// HERENCIA
 namespace FundamentosCSharp.Models
 {
-    internal class Cerveza : Bebida, IBebidaAlchólica
+    public class Cerveza : Bebida, IBebidaAlchólica
     {
         public int Alcohol { get; set; }
         public string Marca { get; set; }

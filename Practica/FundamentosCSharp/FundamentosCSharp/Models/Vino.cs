@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 /// HERENCIA
 namespace FundamentosCSharp.Models
 {
-    internal class Cerveza : Bebida, IBebidaAlchólica
+    internal class Vino : Bebida, IBebidaAlchólica
     {
         public int Alcohol { get; set; }
         /// <summary>
         /// Constructor base -> hereda del padre
         /// </summary>
-        public Cerveza() : base("Cerveza", 500)
+        public Vino() : base("Vino", 500)
         {
 
         }
@@ -21,14 +21,14 @@ namespace FundamentosCSharp.Models
         /// </summary>
         /// <param name="Cantidad"></param>
         /// <param name="Nombre"></param>
-        public Cerveza(int Cantidad = 1, string Nombre = "Cerveza") : base(Nombre, Cantidad)
+        public Vino(int Cantidad = 1, string Nombre = "Vino") : base(Nombre, Cantidad)
         {
 
         }
 
         public void MaxRecomendado()
         {
-            Console.WriteLine("El max permido de una cerveza es 10");
+            Console.WriteLine("El max permido de un vino es 10");
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\germa\\source\\repos\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj": {}
+    "C:\\Users\\germa\\Source\\Repos\\CSharp\\Practica\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\germa\\source\\repos\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj": {
+    "C:\\Users\\germa\\Source\\Repos\\CSharp\\Practica\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\germa\\source\\repos\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\germa\\Source\\Repos\\CSharp\\Practica\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj",
         "projectName": "FundamentosCSharp",
-        "projectPath": "C:\\Users\\germa\\source\\repos\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj",
+        "projectPath": "C:\\Users\\germa\\Source\\Repos\\CSharp\\Practica\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj",
         "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\germa\\source\\repos\\FundamentosCSharp\\FundamentosCSharp\\obj\\",
+        "outputPath": "C:\\Users\\germa\\Source\\Repos\\CSharp\\Practica\\FundamentosCSharp\\FundamentosCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

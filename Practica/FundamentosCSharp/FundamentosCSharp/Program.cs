@@ -8,15 +8,13 @@ namespace FundamentosCSharp
     {
         static void Main(string[] args)
         {
-            var bebidaAlchólica = new Cerveza(100); // creamos una cerveza
-            //var bebidaAlchólica = new Vino(100); // creamos un vino
-            MostrarRecomendacion(bebidaAlchólica);
-            List<string> lista = new List<string>();
-        }
+            CervezaDB cervezaBD = new CervezaDB();
+            var cervezas = cervezaBD.Get();
 
-        static void MostrarRecomendacion(IBebidaAlchólica bebida)
-        {
-            bebida.MaxRecomendado();
+            foreach(var item in cervezas )
+            {
+                Console.WriteLine(item.Nombre);
+            }
         }
     }
 }

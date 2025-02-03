@@ -9,6 +9,7 @@ namespace FundamentosCSharp.Models
     internal class Cerveza : Bebida, IBebidaAlchólica
     {
         public int Alcohol { get; set; }
+        public string Marca { get; set; }
         /// <summary>
         /// Constructor base -> hereda del padre
         /// </summary>

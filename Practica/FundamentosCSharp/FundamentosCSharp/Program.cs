@@ -1,6 +1,9 @@
 ﻿using FundamentosCSharp.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace FundamentosCSharp
 {
@@ -8,15 +11,17 @@ namespace FundamentosCSharp
     {
         static void Main(string[] args)
         {
-            //CervezaDB cervezaBD = new CervezaDB();
-            //var cervezas = cervezaBD.Get();
+            //SERIALIZACION
 
-            //foreach(var item in cervezas )
-            //{
-            //    Console.WriteLine(item.Nombre);
-            //}
+            //Cerveza cerveza = new Cerveza(10, "Cerveza");
+            //string miJson = JsonSerializer.Serialize(cerveza);
+            //File.WriteAllText("objeto.txt", miJson);
 
-            Conexion c = new Conexion();
+            // DESERALIZACION
+            string miJson = File.ReadAllText("objeto.txt");
+            Cerveza cerveza = JsonSerializer.Deserialize<Cerveza>(miJson);
+
+            //"{ Cantidad: 10, Nombre: "Cerveza", cosas: []}" // ObjetoJSON
         }
     }
 }

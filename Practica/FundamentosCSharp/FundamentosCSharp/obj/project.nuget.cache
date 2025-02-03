@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I0pqaEdxxlx8MoNa8cB+eSMRRH4cSNUMuQ3KEnYARhmmsJKnjrnBHHiZFyRdhdWnEbXC+5CKwZmjApuWd56XvA==",
+  "dgSpecHash": "OwiZVdUBx/iAGtXgD7mWpVrJlJogfJoLIRFm/qF5e7SlA4LeBdXa0a0919YSmUsohSz0L5kdrDhdko7Wy5vG2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\germa\\Source\\Repos\\CSharp\\Practica\\FundamentosCSharp\\FundamentosCSharp\\FundamentosCSharp.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,6 @@
     "C:\\Users\\germa\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",
-    "C:\\Users\\germa\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.1\\system.diagnostics.performancecounter.9.0.1.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.0\\system.identitymodel.tokens.jwt.7.5.0.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",

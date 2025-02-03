@@ -491,22 +491,6 @@
           "buildTransitive/netcoreapp2.0/System.Diagnostics.DiagnosticSource.targets": {}
         }
       },
-      "System.Diagnostics.PerformanceCounter/9.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netcoreapp2.0/System.Diagnostics.PerformanceCounter.targets": {}
-        }
-      },
       "System.Formats.Asn1/8.0.1": {
         "type": "package",
         "dependencies": {
@@ -1668,38 +1652,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Diagnostics.PerformanceCounter/9.0.1": {
-      "sha512": "Cpe2Vz1Htilw8H0Z7D0Ssr5mZKK1Is2k5aSV06UiqkRq9o7Qs9t33K/I3UaepVO29oOEbdzejl/HPVEA9AoRfg==",
-      "type": "package",
-      "path": "system.diagnostics.performancecounter/9.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Diagnostics.PerformanceCounter.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Diagnostics.PerformanceCounter.targets",
-        "lib/net462/System.Diagnostics.PerformanceCounter.dll",
-        "lib/net462/System.Diagnostics.PerformanceCounter.xml",
-        "lib/net8.0/System.Diagnostics.PerformanceCounter.dll",
-        "lib/net8.0/System.Diagnostics.PerformanceCounter.xml",
-        "lib/net9.0/System.Diagnostics.PerformanceCounter.dll",
-        "lib/net9.0/System.Diagnostics.PerformanceCounter.xml",
-        "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll",
-        "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.xml",
-        "runtimes/win/lib/net8.0/System.Diagnostics.PerformanceCounter.dll",
-        "runtimes/win/lib/net8.0/System.Diagnostics.PerformanceCounter.xml",
-        "runtimes/win/lib/net9.0/System.Diagnostics.PerformanceCounter.dll",
-        "runtimes/win/lib/net9.0/System.Diagnostics.PerformanceCounter.xml",
-        "system.diagnostics.performancecounter.9.0.1.nupkg.sha512",
-        "system.diagnostics.performancecounter.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Formats.Asn1/8.0.1": {
       "sha512": "XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
       "type": "package",
@@ -2306,7 +2258,6 @@
     "net5.0": [
       "Microsoft.Data.SqlClient >= 6.0.1",
       "System.Data.SqlClient >= 4.9.0",
-      "System.Diagnostics.PerformanceCounter >= 9.0.1",
       "System.Security.Permissions >= 9.0.1"
     ]
   },
@@ -2361,10 +2312,6 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.9.0, )"
-          },
-          "System.Diagnostics.PerformanceCounter": {
-            "target": "Package",
-            "version": "[9.0.1, )"
           },
           "System.Security.Permissions": {
             "target": "Package",

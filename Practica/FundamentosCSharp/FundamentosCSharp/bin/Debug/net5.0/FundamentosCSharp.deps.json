@@ -10,7 +10,6 @@
         "dependencies": {
           "Microsoft.Data.SqlClient": "6.0.1",
           "System.Data.SqlClient": "4.9.0",
-          "System.Diagnostics.PerformanceCounter": "9.0.1",
           "System.Security.Permissions": "9.0.1"
         },
         "runtime": {
@@ -335,14 +334,6 @@
           "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.424.16909"
-          }
-        }
-      },
-      "System.Diagnostics.PerformanceCounter/9.0.1": {
-        "runtime": {
-          "lib/netstandard2.0/System.Diagnostics.PerformanceCounter.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
           }
         }
       },
@@ -675,13 +666,6 @@
       "sha512": "sha512-vaoWjvkG1aenR2XdjaVivlCV9fADfgyhW5bZtXT23qaEea0lWiUljdQuze4E31vKM7ZWJaSUsbYIKE3rnzfZUg==",
       "path": "system.diagnostics.diagnosticsource/8.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
-    },
-    "System.Diagnostics.PerformanceCounter/9.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Cpe2Vz1Htilw8H0Z7D0Ssr5mZKK1Is2k5aSV06UiqkRq9o7Qs9t33K/I3UaepVO29oOEbdzejl/HPVEA9AoRfg==",
-      "path": "system.diagnostics.performancecounter/9.0.1",
-      "hashPath": "system.diagnostics.performancecounter.9.0.1.nupkg.sha512"
     },
     "System.Formats.Asn1/8.0.1": {
       "type": "package",

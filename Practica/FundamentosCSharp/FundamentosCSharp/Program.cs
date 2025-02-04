@@ -12,47 +12,48 @@ namespace FundamentosCSharp
 {
     internal class Program
     {
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
-            List<Cerveza> cervezas = new List<Cerveza>()
+            CervezaDB cervezaBD = new CervezaDB();
+            var cervezas = cervezaBD.Get();
+
+            foreach (var item in cervezas)
             {
-                new Cerveza() { Alcohol = 7, Cantidad = 10, Nombre = "Estrella", Marca = "Lala" },
-                new Cerveza() { Alcohol = 8, Cantidad = 11, Nombre = "Mahou", Marca = "Aguila" },
-                new Cerveza() { Alcohol = 68, Cantidad = 20, Nombre = "Damm", Marca = "Fuensanta" },
-                new Cerveza() { Alcohol = 33, Cantidad = 120, Nombre = "CocaCola", Marca = "Pompeii" },
-            };
+                Console.WriteLine(item.Nombre);
+            }
 
-            List<Bar> bares = new List<Bar>()
+            // insertamos nuevas cervezas
             {
-                new Bar("El Bar")
-                {
-                    cervezas = new List<Cerveza>()
-                    {
-                        new Cerveza() { Alcohol = 7, Cantidad = 10, Nombre = "Estrella", Marca = "Lala" },
-                        new Cerveza() { Alcohol = 8, Cantidad = 11, Nombre = "Mahou", Marca = "Aguila" },
-                        new Cerveza() { Alcohol = 68, Cantidad = 20, Nombre = "Damm", Marca = "Fuensanta" },
+                Cerveza cerveza = new Cerveza(15, "Mahou");
+                cerveza.Marca = "Minerva";
+                cerveza.Alcohol = 6;
+                cervezaBD.Add(cerveza);
+            }
 
-                    }
+            // editamos una cerveza
+            {
+                Cerveza cerveza = new Cerveza(15, "Mahou");
+                cerveza.Marca = "Minerva";
+                cerveza.Alcohol = 5;
+                cervezaBD.Edit(cerveza, 5);
+            }
 
-                },
-                new Bar("El Bar2")
-                { cervezas = new List<Cerveza>()
-                    {
-                        new Cerveza() { Alcohol = 7, Cantidad = 10, Nombre = "Estrella", Marca = "Lala" },
-                         new Cerveza() { Alcohol = 33, Cantidad = 120, Nombre = "CocaCola", Marca = "Pompeii" },
+            // borrar
+            {
+                cervezaBD.Delete(5);
+            }
 
-                    }
-                },
-                new Bar("El Bar3")
-                { cervezas = new List<Cerveza>()
-                    {
-                        new Cerveza() { Alcohol = 44, Cantidad = 22, Nombre = "Vino", Marca = "Pomp" },
-                         new Cerveza() { Alcohol = 2, Cantidad = 4, Nombre = "Leche", Marca = "Cuca" },
+            // obtener todas las cervezas
 
-                    }
-                }
-            };
+            cervezas = cervezaBD.Get();
+
+            foreach (var item in cervezas)
+            {
+                Console.WriteLine($"Nombre: {item.Nombre} - Marca: {item.Marca} - Cantidad: {item.Cantidad} - Alcohol: {item.Alcohol}");
+            }
+
 
         }
+
     }
 }

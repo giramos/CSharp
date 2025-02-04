@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace FundamentosCSharp.Models // namespace : grupo
 {
 
-    internal class Bebida // internal (desde el mismo dll)
+    public class Bebida // internal (desde el mismo dll)
     {
         public string Nombre { get; set; }  // public o private o protected
         public int Cantidad { get; set; }

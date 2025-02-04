@@ -5,8 +5,7 @@
     },
     "mssql1": {
       "type": "mssql",
-      "connectionId": "DESKTOP-3829VRG",
-      "dynamicId": null
+      "connectionId": "DESKTOP-3829VRG"
     }
   }
 }

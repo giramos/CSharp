@@ -5,9 +5,9 @@
     },
     "mssql1": {
       "secretStore": "LocalSecretsFile",
+      "resourceId": null,
       "type": "mssql.onprem",
-      "connectionId": "DESKTOP-3829VRG",
-      "dynamicId": null
+      "connectionId": "DESKTOP-3829VRG"
     }
   }
 }

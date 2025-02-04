@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vqql+G4VnEG18s4vXlZju6NIe3hrLN2IZB05OuyeCxgRkGtwPIGK+Pn2ZIcBQGyMGqzVblfyRUP309AoMIwaFg==",
+  "dgSpecHash": "vFV3MUTqYkbYSM67O2q5+tyZHH0h13/thU4OVTjNmjaBVGYnP1MWvVDKoeBkpSGbyquS4kJSa223SSL/JDbghQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\germa\\source\\repos\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj",
+  "projectFilePath": "C:\\Users\\germa\\source\\repos\\CSharp\\Practica\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\germa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -23,5 +23,10 @@ namespace Tutorial_conexion
             da.Fill(dt);
             this.dataGridView1.DataSource = dt;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

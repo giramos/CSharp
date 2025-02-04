@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\germa\\source\\repos\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj": {}
+    "C:\\Users\\germa\\source\\repos\\CSharp\\Practica\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\germa\\source\\repos\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj": {
+    "C:\\Users\\germa\\source\\repos\\CSharp\\Practica\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\germa\\source\\repos\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj",
+        "projectUniqueName": "C:\\Users\\germa\\source\\repos\\CSharp\\Practica\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj",
         "projectName": "Tutorial conexion",
-        "projectPath": "C:\\Users\\germa\\source\\repos\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj",
+        "projectPath": "C:\\Users\\germa\\source\\repos\\CSharp\\Practica\\Tutorial conexion\\Tutorial conexion\\Tutorial conexion.csproj",
         "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\germa\\source\\repos\\Tutorial conexion\\Tutorial conexion\\obj\\",
+        "outputPath": "C:\\Users\\germa\\source\\repos\\CSharp\\Practica\\Tutorial conexion\\Tutorial conexion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

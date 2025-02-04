@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
@@ -12,47 +13,35 @@ namespace FundamentosCSharp
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            CervezaDB cervezaBD = new CervezaDB();
-            var cervezas = cervezaBD.Get();
+            //string url = "https://jsonplaceholder.typicode.com/posts"; POST
+            //string url = "https://jsonplaceholder.typicode.com/posts/99"; PUT
+            string url = "https://jsonplaceholder.typicode.com/posts/99"; //DELETE
+            var client = new HttpClient();
 
-            foreach (var item in cervezas)
+            Post post = new()
             {
-                Console.WriteLine(item.Nombre);
-            }
+                userId = 50,
+                body = "Hola como estan",
+                title = "titulo de saludo"
+            };
 
-            // insertamos nuevas cervezas
+            var data = JsonSerializer.Serialize<Post>(post);
+            //HttpContent content = new StringContent(data, System.Text.Encoding.UTF8, "application/json");
+            //POST
+            //var httpResponse = await client.PostAsync(url, content);
+            //PUT
+            //var httpResponse = await client.PutAsync(url, content);
+            //DELETE
+            var httpResponse = await client.DeleteAsync(url);
+
+            if (httpResponse.IsSuccessStatusCode)
             {
-                Cerveza cerveza = new Cerveza(15, "Mahou");
-                cerveza.Marca = "Minerva";
-                cerveza.Alcohol = 6;
-                cervezaBD.Add(cerveza);
+                var result = await httpResponse.Content.ReadAsStringAsync();
+
+                //var postResult = JsonSerializer.Deserialize<Post>(result);
             }
-
-            // editamos una cerveza
-            {
-                Cerveza cerveza = new Cerveza(15, "Mahou");
-                cerveza.Marca = "Minerva";
-                cerveza.Alcohol = 5;
-                cervezaBD.Edit(cerveza, 5);
-            }
-
-            // borrar
-            {
-                cervezaBD.Delete(5);
-            }
-
-            // obtener todas las cervezas
-
-            cervezas = cervezaBD.Get();
-
-            foreach (var item in cervezas)
-            {
-                Console.WriteLine($"Nombre: {item.Nombre} - Marca: {item.Marca} - Cantidad: {item.Cantidad} - Alcohol: {item.Alcohol}");
-            }
-
-
         }
 
     }
